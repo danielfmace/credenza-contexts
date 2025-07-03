@@ -2,10 +2,10 @@
   "@context": {
     "@version": 1.1,
     "legalBusinessName": "https://schema.org/legalName",
-    "resaleCertificateId": "https://credenza.id/terms#resaleCertificateId",
-    "taxJurisdiction": "https://credenza.id/terms#taxJurisdiction",
-    "businessType": "https://credenza.id/terms#businessType",
-    "entityType": "https://credenza.id/terms#entityType",
+    "resaleCertificateId": "resaleCertificateId",
+    "taxJurisdiction": "taxJurisdiction",
+    "businessType": "businessType",
+    "entityType": "entityType",
     "address": "https://schema.org/address",
     "validFrom": {
       "@id": "https://schema.org/validFrom",
@@ -15,6 +15,6 @@
       "@id": "https://schema.org/validThrough",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
-    "ResaleCertificateCredential": "https://credenza.id/terms#ResaleCertificateCredential"
+    "ResaleCertificateCredential": "ResaleCertificateCredential"
   }
 }
